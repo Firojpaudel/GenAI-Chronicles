@@ -5,9 +5,11 @@ Welcome to the GenAI Chronicles! This repository captures my journey into Genera
 ---
 ## What to Expect:
 <ul>
-🚀 Conceptual Journeys: Dive into the core concepts of Generative AI.
-🛠️ Practical Implementations: Hands-on projects with a major focus on PyTorch.
+  🚀 Conceptual Journeys: Dive into the core concepts of Generative AI. 
+  
+  🛠️ Practical Implementations: Hands-on projects with a major focus on PyTorch.
 </ul>
+
 ---
 
 Stay tuned! 🌠
