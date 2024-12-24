@@ -28,8 +28,8 @@ _Progress:_
 
 ___
 
-<p style="text-align: center;">
-  <img src="https://i.postimg.cc/GmTqz2bg/Underconstruction-v2-4.gif" alt="Alt text" width="400"/>
+<p align="center">
+  <img src="https://i.postimg.cc/GmTqz2bg/Underconstruction-v2-4.gif" alt="Gif_image_representing_work_under_construction" width="400"/>
 </p>
 
 ---
