@@ -21,10 +21,14 @@ _Progress:_
 
 | Topic | Status |
 |-------|--------|
-| Learning to Implement Through NumPy | ✅ |
-| Basic GAN with PyTorch | ✅ |
-| Conditional GAN with PyTorch | ✅ |
-| Deep Convolutional GAN with PyTorch | 🏊 |
+| [Learning to Implement Through NumPy](./GANs/Trying_with_numpy.ipynb) | ✅ |
+| [Basic GAN with PyTorch](./GANs/GAN_With_Pytorch.ipynb) | ✅ |
+| [Conditional GAN with PyTorch](./GANs/cGAN_With_Pytorch.ipynb) | ✅ |
+| [Deep Convolutional GAN with PyTorch](./GANs/dcGAN_With_Pytorch.ipynb) | ✅ |
+
+2. **Phase_2**: BERTs
+
+_Not_started_yet_
 
 ___
 
