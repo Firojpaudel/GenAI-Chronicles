@@ -28,7 +28,10 @@ _Progress:_
 
 2. **Phase_2**: BERTs
 
-_Not_started_yet_
+| Topic | Status |
+|-------|--------|
+| [Hugging Face: Part_1](./)| ✅ |
+
 
 ___
 
