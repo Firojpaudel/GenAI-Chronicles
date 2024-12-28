@@ -30,7 +30,7 @@ _Progress:_
 
 | Topic | Status |
 |-------|--------|
-| [Hugging Face: Part_1](./)| ✅ |
+| [Hugging Face: Part_1](./BERTs/BERT_implementation.ipynb)| ✅ |
 
 
 ___
