@@ -14,6 +14,7 @@ class InputEmbeddings(nn.Module):
         
     def forward(self, x):
         return self.embed(x) * torch.sqrt(self.d_model, dtype=torch.float32)
+    
 class PositionalEncoding(nn.Module):
     def __init__(self, d_model: int, seq_length: int, dropout: float):
         super().__init__()
@@ -242,6 +243,5 @@ def build_transformer(src_vocab_size: int, trgt_vocab_size: int, src_seq_len: in
     '''
     The xavier_uniform_ function initializes the weights of the model. The weights are initialized using a uniform distribution
     '''
-    
     return transformer
 
