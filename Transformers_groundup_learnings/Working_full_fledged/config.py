@@ -2,10 +2,10 @@ from pathlib import Path
 
 def get_config():
     return {
-        "batch_size": 32,
-        "num_epochs": 20,
+        "batch_size": 16,
+        "num_epochs": 5,  ##Just for testing!
         "lr": 10**-4,
-        "seq_len": 128,
+        "seq_len": 64,
         "d_model": 512,
         "datasource": 'cfilt/iitb-english-hindi',
         "lang_src": "en",
