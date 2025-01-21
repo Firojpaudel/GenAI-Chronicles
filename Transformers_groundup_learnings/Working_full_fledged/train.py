@@ -33,5 +33,16 @@ def get_dataset(config):
     tokenizer_en = create_tokenizer(config, ds_train, 'en')
     tokenizer_hi = create_tokenizer(config, ds_train, 'hi')
     
+    def tokenize_function(examples):
+        examples['translation']['en'] = tokenizer_en.encode(examples['translation']['en']).tokens
+        examples['translation']['hi'] = tokenizer_hi.encode(examples['translation']['hi']).tokens
+        return examples
+    
+    ds_train = ds_train.map(tokenize_function, batched=True)
+    ds_valid = ds_valid.map(tokenize_function, batched=True)
+    ds_test = ds_test.map(tokenize_function, batched=True)
+    
+    return ds_train, ds_valid, ds_test
+    
     
     
